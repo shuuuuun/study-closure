@@ -220,12 +220,28 @@ console.log( countup() );  // => 3  （スコープ切れてる）
 
 ---
 
-###参考
+####参考
 
-https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%B8%E3%83%A3
-http://d.hatena.ne.jp/keyword/%A5%AF%A5%ED%A1%BC%A5%B8%A5%E3
-https://developer.mozilla.org/ja/docs/Web/JavaScript/Closures
-http://dqn.sakusakutto.jp/2009/01/javascript_5.html
-http://qiita.com/takeharu/items/4975031faf6f7baf077a
-http://satoshi.blogs.com/life/2007/12/javascript-2.html
-http://uhyohyo.net/javascript/9_5.html
+<p style="font-size: 24px;">
+Wikipedia<br>
+https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AD%E3%83%BC%E3%82%B8%E3%83%A3<br>
+<br>
+はてなキーワード<br>
+http://d.hatena.ne.jp/keyword/%A5%AF%A5%ED%A1%BC%A5%B8%A5%E3<br>
+<br>
+MDN<br>
+https://developer.mozilla.org/ja/docs/Web/JavaScript/Closures<br>
+<br>
+猿でもわかるクロージャ超入門<br>
+http://dqn.sakusakutto.jp/2009/01/javascript_5.html<br>
+<br>
+JavaScriptでクロージャ入門<br>
+http://qiita.com/takeharu/items/4975031faf6f7baf077a<br>
+<br>
+クロージャを使ったプライベート関数の隠蔽について<br>
+http://satoshi.blogs.com/life/2007/12/javascript-2.html<br>
+<br>
+うひょひょ<br>
+http://uhyohyo.net/javascript/9_5.html<br>
+</p>
+

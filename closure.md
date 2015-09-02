@@ -9,6 +9,11 @@
 ###今日のキーワード
 
 - クロージャ
+- 隠蔽（スコープ）
+<!-- - 関数の中の関数 -->
+- 関数を返す関数
+- 状態を保持する関数
+
 
 ---
 
@@ -16,7 +21,7 @@
 
 <blockquote style="font-size: 25px; text-align: left; margin-left: 0;">
     引数以外の変数を実行時の環境ではなく、自身が定義された環境（静的スコープ）において解決することを特徴とする。関数とそれを評価する環境のペアであるともいえる。
-    ...wikipediaより引用
+    ...wikipediaより
 </blockquote>
 
 ---
@@ -48,7 +53,7 @@ function countup(){
 console.log( countup() );  // => 1
 console.log( countup() );  // => 2
 
-num = 0; // ←
+num = 0;  // ←
 
 console.log( countup() );  // => 1
 ```
@@ -61,12 +66,12 @@ console.log( countup() );  // => 1
 
 ###つくってみよう
 
-変数を周りから操作できないようにしよう。
+変数のスコープを切って、上書きされないようにしよう。（隠蔽）
 
 ```
 // var num = 0;
 function countup(){
-    var num = 0; // ← 移動
+    var num = 0;  // ← 移動
     return ++num;
 }
 ```
@@ -104,10 +109,19 @@ console.log( countup() );  // => 3
 
 おっ
 
+できた。
 
+---
+
+###つまり、クロージャとは
 
 
 ---
+
+###まとめ
+
+
+
 
 ---
 
